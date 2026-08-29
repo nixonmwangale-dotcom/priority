@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const success = document.getElementById('volunteer-success');
       if (success) {
         success.classList.add('show');
-        success.textContent = "Thank you, " + (volForm.querySelector('#v-name').value || 'friend') + " — we've received your details and a Hatua Mkononi coordinator will reach out within 3 working days.";
+        success.textContent = "Thank you, " + (volForm.querySelector('#v-name').value || 'friend') + " — we've received your details and a Priority Five Initiative coordinator will reach out within 3 working days.";
       }
       volForm.reset();
     });
