@@ -16,7 +16,7 @@
 <header class="nav">
   <div class="nav-inner">
     <a href="index.html" class="brand">
-      <img src="assets/logo-mark.png" alt="Priority Five Initiative logo" class="mark" width="44" height="44">
+      <img src="assets/logo-mark.png" alt="Priority Five Initiative logo" class="mark" width="56" height="56">
       Priority Five
     </a>
     <nav>
@@ -41,66 +41,74 @@
   <!-- ============ HERO ============ -->
   <section class="hero">
     <div class="container hero-inner">
+      <div class="hero-photo reveal">
+        <div class="hero-photo-frame">
+          <!-- Editorial scene: youth-led digital + climate work in Bungoma County -->
+          <svg viewBox="0 0 600 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of young people collaborating on a laptop while planting a tree together, representing PFI's digital literacy and climate resilience work">
+            <defs>
+              <linearGradient id="heroSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="var(--blue-deep)"/>
+                <stop offset="100%" stop-color="var(--blue)"/>
+              </linearGradient>
+              <linearGradient id="heroGround" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="var(--green-deep)"/>
+                <stop offset="100%" stop-color="var(--green)"/>
+              </linearGradient>
+            </defs>
+            <rect width="600" height="640" fill="url(#heroSky)"/>
+            <path d="M0 470 C120 430 220 460 300 440 C400 415 480 450 600 420 L600 640 L0 640 Z" fill="url(#heroGround)"/>
+
+            <!-- sun / connectivity ring -->
+            <circle cx="470" cy="130" r="70" fill="var(--indigo)" opacity="0.35"/>
+            <circle cx="470" cy="130" r="46" fill="var(--indigo-light)" opacity="0.55"/>
+
+            <!-- tree being planted, center -->
+            <path d="M300 470 C300 400 320 350 320 300" stroke="#8D6E63" stroke-width="10" fill="none" stroke-linecap="round"/>
+            <circle cx="322" cy="288" r="52" fill="var(--green)"/>
+            <circle cx="278" cy="316" r="36" fill="var(--green-deep)"/>
+            <circle cx="366" cy="312" r="38" fill="#5DB761"/>
+
+            <!-- seated figure, left, with laptop -->
+            <g>
+              <circle cx="160" cy="330" r="30" fill="#F2C29A"/>
+              <path d="M110 520 C110 430 128 400 160 400 C192 400 210 430 210 520 Z" fill="var(--indigo-deep)"/>
+              <rect x="128" y="440" width="66" height="44" rx="6" fill="#F5F5F5"/>
+              <rect x="136" y="447" width="50" height="26" rx="3" fill="var(--blue)"/>
+            </g>
+
+            <!-- standing figure, right, planting/pointing -->
+            <g>
+              <circle cx="430" cy="300" r="30" fill="#8D5A44"/>
+              <path d="M382 520 C382 420 400 370 430 370 C460 370 478 420 478 520 Z" fill="var(--blue-deep)"/>
+              <path d="M448 400 L500 360" stroke="#8D5A44" stroke-width="14" stroke-linecap="round"/>
+            </g>
+
+            <!-- circuit / AI accents drifting above -->
+            <g stroke="var(--indigo-light)" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.9">
+              <path d="M60 180 h50 v36 h36"/>
+              <circle cx="60" cy="180" r="6" fill="var(--indigo-light)"/>
+              <circle cx="146" cy="216" r="6" fill="var(--indigo-light)"/>
+              <path d="M520 220 h-44 v32 h-30"/>
+              <circle cx="520" cy="220" r="6" fill="var(--indigo-light)"/>
+              <circle cx="446" cy="252" r="6" fill="var(--indigo-light)"/>
+            </g>
+
+            <!-- floating leaves -->
+            <g class="float">
+              <path d="M520 320 C556 300 582 326 570 362 C534 368 502 350 520 320 Z" fill="var(--green)" opacity="0.85"/>
+            </g>
+          </svg>
+        </div>
+        <span class="hero-photo-caption">Bungoma County, Kenya</span>
+      </div>
       <div>
         <span class="hero-eyebrow">Inclusion &middot; Innovation &middot; Resilience</span>
-        <h1>Five priorities. One fan of change.</h1>
+        <h1>Five priorities. One force for change.</h1>
         <p class="lead">PRIORITY FIVE INITIATIVE equips communities in Bungoma County and beyond with the knowledge, technology, and partnerships needed to build a more inclusive, resilient, and sustainable future.</p>
         <div class="hero-ctas">
           <a href="contact.html#volunteer" class="btn btn-primary">Join Us</a>
-          <a href="#about" class="btn btn-outline">Learn More</a>
+          <a href="#about" class="btn btn-outline-dark">Learn More</a>
         </div>
-      </div>
-      <div class="hero-art">
-        <!-- Illustrated scene: youth with device + tree planting, abstract flat style -->
-        <svg viewBox="0 0 520 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a young person using a tablet beside a newly planted tree, surrounded by circuit and leaf motifs">
-          <defs>
-            <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
-              <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-            </linearGradient>
-          </defs>
-          <circle class="parallax-layer" data-speed="0.04" cx="260" cy="230" r="210" fill="url(#skyGrad)"/>
-          <!-- ground -->
-          <ellipse cx="260" cy="410" rx="220" ry="26" fill="#0D47A1" opacity="0.35"/>
-
-          <!-- tree being planted -->
-          <g class="parallax-layer" data-speed="0.06">
-            <path d="M120 400 C120 340 150 300 150 260" stroke="var(--yellow)" stroke-width="6" fill="none" stroke-linecap="round"/>
-            <circle cx="150" cy="250" r="34" fill="var(--green)"/>
-            <circle cx="122" cy="270" r="22" fill="var(--green-deep)"/>
-            <circle cx="178" cy="268" r="24" fill="#43A047"/>
-          </g>
-
-          <!-- seedling small -->
-          <g>
-            <path d="M370 400 C370 375 380 360 380 345" stroke="var(--green-deep)" stroke-width="5" fill="none" stroke-linecap="round"/>
-            <circle cx="380" cy="336" r="16" fill="var(--green)"/>
-          </g>
-
-          <!-- person silhouette holding tablet -->
-          <g>
-            <circle cx="255" cy="205" r="28" fill="var(--yellow)"/>
-            <path d="M205 400 C205 320 218 270 255 270 C292 270 305 320 305 400 Z" fill="var(--blue-deep)"/>
-            <rect x="222" y="300" width="66" height="46" rx="8" fill="#ffffff"/>
-            <rect x="230" y="308" width="50" height="30" rx="4" fill="var(--blue)"/>
-            <path d="M238 322 h16 M238 328 h30" stroke="var(--yellow)" stroke-width="3" stroke-linecap="round"/>
-          </g>
-
-          <!-- circuit / AI accents -->
-          <g class="parallax-layer" data-speed="0.1" stroke="var(--yellow)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9">
-            <path d="M60 150 h40 v30 h30"/>
-            <circle cx="60" cy="150" r="5" fill="var(--yellow)"/>
-            <circle cx="130" cy="180" r="5" fill="var(--yellow)"/>
-            <path d="M440 120 h-36 v26 h-24"/>
-            <circle cx="440" cy="120" r="5" fill="var(--yellow)"/>
-            <circle cx="380" cy="146" r="5" fill="var(--yellow)"/>
-          </g>
-
-          <!-- floating leaf -->
-          <g class="float">
-            <path d="M420 220 C450 205 470 225 460 255 C430 260 405 245 420 220 Z" fill="var(--green)"/>
-          </g>
-        </svg>
       </div>
     </div>
   </section>
@@ -109,29 +117,25 @@
   <section class="section-pad" id="about">
     <div class="container about-grid">
       <div class="reveal">
-        <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration representing community members connected in a circle">
-          <circle cx="180" cy="180" r="170" fill="var(--mist)"/>
-          <circle cx="180" cy="95" r="34" fill="var(--blue)"/>
-          <circle cx="95" cy="230" r="34" fill="var(--green)"/>
-          <circle cx="265" cy="230" r="34" fill="var(--yellow)"/>
-          <path d="M180 95 L95 230 L265 230 Z" stroke="var(--ink)" stroke-width="2.5" fill="none" stroke-dasharray="2 10" stroke-linecap="round" opacity="0.35"/>
-          <circle cx="180" cy="215" r="14" fill="var(--white)" stroke="var(--blue-deep)" stroke-width="3"/>
-        </svg>
+        <div class="hero-photo-frame" style="aspect-ratio:4/5; max-height:480px;">
+          <img src="assets/director.png" alt="Director of Priority Five Initiative" loading="lazy">
+        </div>
       </div>
       <div class="reveal">
         <span class="eyebrow">Who we are</span>
         <h2>Five priorities, one shared strategy.</h2>
-        <p>PRIORITY FIVE INITIATIVE (PFI) is a community-based organization working across Bungoma County, Kenya to promote inclusion, innovation, resilience, learning, and sustainable opportunity. Our five thematic areas aren't separate causes — they are one strategy for lasting community-led change.</p>
-        <p><strong>Our vision</strong> is a generation of resilient, included, and empowered communities where displacement, digital exclusion, climate shocks, and limited opportunity no longer hold people back.</p>
-        <p><strong>Our mission</strong> is to equip communities — refugees, youth, and learners alike — with practical skills, protection, and pathways to opportunity, delivered through hands-on, locally led programs.</p>
+        <p>PRIORITY FIVE INITIATIVE equips communities in Bungoma, Nairobi, and beyond with the knowledge, skills, and technology — and provides a platform for the partnerships — needed to build a more inclusive, resilient, and sustainable future.</p>
+        <p><strong>Our vision</strong> is a society in which every person, regardless of origin or circumstance, has access to safety, opportunity, and a voice in shaping a sustainable future.</p>
+        <p><strong>Our mission</strong> is to pool together people, ideas, and resources across communities to deliver practical, dignity-centered support to refugees, accelerate local climate action, expand responsible use of artificial intelligence, and empower young people through education and opportunity.</p>
         <ul class="pillar-list">
           <li><span class="dot icon-blue">🤝</span> Community-centered design in everything we build</li>
           <li><span class="dot icon-green">🌍</span> Inclusion at the core — displacement status, gender, geography, and ability</li>
-          <li><span class="dot icon-yellow">💡</span> Innovation grounded in local realities, not imported blueprints</li>
+          <li><span class="dot icon-indigo">💡</span> Innovation grounded in local realities, not imported blueprints</li>
         </ul>
       </div>
     </div>
   </section>
+
 
   <!-- ============ FIVE THEMATIC AREAS ============ -->
   <section class="section-pad section-alt">
@@ -153,7 +157,7 @@
             </div>
             <h3>Refugee Integration &amp; Protection</h3>
             <p>Promoting refugee rights, dignity, inclusion, protection, and sustainable integration for displaced communities.</p>
-            <a href="programs.html#refugees" class="card-link c-blue">Learn More &rarr;</a>
+            <a href="programs.html#refugees" class="card-link c-blue">Explore Program &rarr;</a>
           </article>
 
           <article class="card">
@@ -161,17 +165,17 @@
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 28c8-2 12-9 10-18-9 1-15 6-16 14-1-4-4-6-8-6 1 7 6 10 14 10z" fill="var(--green)"/></svg>
             </div>
             <h3>Climate &amp; Environmental Resilience</h3>
-            <p>Helping communities address climate change through conservation, sustainable practices, and resilience-building.</p>
-            <a href="programs.html#climate" class="card-link c-green">Explore &rarr;</a>
+            <p>10,000 trees planted, 300 youth climate ambassadors mentored, and 1,000 farmers trained in agroforestry and climate-smart agriculture.</p>
+            <a href="programs.html#climate" class="card-link c-green">Explore Program &rarr;</a>
           </article>
 
           <article class="card">
-            <div class="card-icon icon-blue">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="6" y="6" width="20" height="20" rx="5" stroke="var(--blue-deep)" stroke-width="2.4"/><circle cx="16" cy="16" r="4" fill="var(--blue-deep)"/><path d="M16 2v4M16 26v4M2 16h4M26 16h4" stroke="var(--blue-deep)" stroke-width="2.4" stroke-linecap="round"/></svg>
+            <div class="card-icon icon-indigo">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="6" y="6" width="20" height="20" rx="5" stroke="var(--indigo)" stroke-width="2.4"/><circle cx="16" cy="16" r="4" fill="var(--indigo)"/><path d="M16 2v4M16 26v4M2 16h4M26 16h4" stroke="var(--indigo)" stroke-width="2.4" stroke-linecap="round"/></svg>
             </div>
             <h3>AI &amp; Digital Literacy</h3>
-            <p>Building practical digital and AI skills for learning, innovation, employment, and entrepreneurship.</p>
-            <a href="programs.html#ai" class="card-link c-blue">Explore &rarr;</a>
+            <p>A county digital learning rollout across 36 ECDE centers in Bungoma, reaching about 3,233 learners and training 108 teachers.</p>
+            <a href="programs.html#ai" class="card-link c-indigo">Explore Program &rarr;</a>
           </article>
 
           <article class="card">
@@ -179,17 +183,17 @@
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="12" cy="11" r="5" fill="var(--blue)"/><circle cx="22" cy="13" r="4" fill="var(--blue-deep)"/><path d="M4 27c0-5.5 4-9 8-9s8 3.5 8 9M17 27c0-4 3-7 7-7s6 3 6 7" stroke="var(--blue)" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>
             </div>
             <h3>Youth Empowerment &amp; Livelihoods</h3>
-            <p>Equipping young people with skills, opportunities, mentorship, and pathways to sustainable livelihoods.</p>
-            <a href="programs.html#youth" class="card-link c-blue">Get Involved &rarr;</a>
+            <p>A KYEOP-funded agribusiness program created 300 direct and 1,000 indirect jobs for young people and community members.</p>
+            <a href="programs.html#youth" class="card-link c-blue">Explore Program &rarr;</a>
           </article>
 
           <article class="card">
-            <div class="card-icon icon-green">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M4 12l12-6 12 6-12 6-12-6z" stroke="var(--green-deep)" stroke-width="2.2" fill="none" stroke-linejoin="round"/><path d="M9 15v6c0 2 3 4 7 4s7-2 7-4v-6" stroke="var(--green-deep)" stroke-width="2.2" fill="none"/></svg>
+            <div class="card-icon icon-indigo">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M4 12l12-6 12 6-12 6-12-6z" stroke="var(--indigo)" stroke-width="2.2" fill="none" stroke-linejoin="round"/><path d="M9 15v6c0 2 3 4 7 4s7-2 7-4v-6" stroke="var(--indigo)" stroke-width="2.2" fill="none"/></svg>
             </div>
             <h3>Quality Education &amp; Lifelong Learning</h3>
             <p>Expanding access to inclusive education, digital learning, skills development, and lifelong learning.</p>
-            <a href="programs.html#education" class="card-link c-green">Learn More &rarr;</a>
+            <a href="programs.html#education" class="card-link c-indigo">Explore Program &rarr;</a>
           </article>
         </div>
       </div>
@@ -204,13 +208,12 @@
         <h2 style="color:#fff;">Progress you can count on.</h2>
       </div>
       <div class="stats-grid">
-        <div class="stat reveal"><div class="num" data-count="0">0</div><div class="label">Communities Reached</div></div>
-        <div class="stat reveal"><div class="num" data-count="0">0</div><div class="label">Refugees &amp; Host Community Members Supported</div></div>
-        <div class="stat reveal"><div class="num" data-count="0">0</div><div class="label">Youth Trained</div></div>
-        <div class="stat reveal"><div class="num" data-count="0">0</div><div class="label">Trees Planted</div></div>
-        <div class="stat reveal"><div class="num" data-count="0">0</div><div class="label">Community Partnerships</div></div>
+        <div class="stat reveal"><div class="num" data-count="10000">0</div><div class="label">Trees Planted</div></div>
+        <div class="stat reveal"><div class="num" data-count="1000">0</div><div class="label">Farmers Trained in Climate-Smart Agriculture</div></div>
+        <div class="stat reveal"><div class="num" data-count="300">0</div><div class="label">Youth Climate Ambassadors Mentored</div></div>
+        <div class="stat reveal"><div class="num" data-count="3233">0</div><div class="label">Learners Reached Through Digital Learning</div></div>
+        <div class="stat reveal"><div class="num" data-count="1300">0</div><div class="label">Direct &amp; Indirect Jobs Created Through Youth Agribusiness</div></div>
       </div>
-      <p class="reveal" style="text-align:center; color:rgba(255,255,255,0.6); font-size:0.85rem; margin-top:20px;">Figures to be updated with PFI's verified program data.</p>
     </div>
   </section>
 
@@ -262,7 +265,7 @@
     <div class="footer-grid">
       <div>
         <div class="footer-brand">
-          <img src="assets/logo-mark.png" alt="Priority Five Initiative logo" width="34" height="34">
+          <img src="assets/logo-mark.png" alt="Priority Five Initiative logo" width="44" height="44">
           Priority Five Initiative
         </div>
         <p style="max-width:280px;">Pooling together for positive change in society — across five interconnected thematic areas.</p>

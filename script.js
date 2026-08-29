@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
       const note = form.querySelector('.newsletter-note');
-      if (note) { note.textContent = "You're subscribed — karibu!"; note.style.color = 'var(--yellow)'; }
+      if (note) { note.textContent = "You're subscribed — karibu!"; note.style.color = 'var(--indigo-light)'; }
       form.reset();
     });
   });
