@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Involved — Hatua Mkononi</title>
+<meta name="description" content="Volunteer, partner, or donate to Hatua Mkononi. Get in touch with our team in Nairobi, Kenya.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <svg class="mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hatua Mkononi logo">
+        <circle cx="24" cy="24" r="23" fill="var(--blue)"/>
+        <path d="M13 27c0-7 5-13 11-13s11 6 11 13c0 1.7-3 3-11 3s-11-1.3-11-3z" fill="var(--yellow)"/>
+        <path d="M24 10c3 4 3 9 0 13-3-4-3-9 0-13z" fill="var(--green)"/>
+        <circle cx="24" cy="24" r="3.2" fill="var(--blue-deep)"/>
+      </svg>
+      Hatua Mkononi
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="contact.html" class="active">Get Involved</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html#volunteer" class="btn btn-outline-dark">Volunteer</a>
+      <a href="contact.html#donate" class="btn btn-primary">Donate</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">Home / Get Involved</div>
+      <h1>Take your step with Hatua Mkononi.</h1>
+      <p style="max-width:600px; color:rgba(255,255,255,0.88);">Whether you give an afternoon, a partnership, or a donation — there's a place for you in this work.</p>
+    </div>
+  </section>
+
+  <!-- ============ VOLUNTEER ============ -->
+  <section class="section-pad" id="volunteer">
+    <div class="container grid-2">
+      <div class="reveal">
+        <span class="eyebrow">Volunteer</span>
+        <h2>Bring your time and skills.</h2>
+        <p>From leading a workshop to mentoring a young entrepreneur to joining a weekend tree-planting drive — tell us where your interests lie and we'll match you with the right program.</p>
+        <ul class="pillar-list">
+          <li><span class="dot icon-blue">🤝</span> Flexible commitments, from one-off events to ongoing mentorship</li>
+          <li><span class="dot icon-green">🌱</span> Training and orientation provided before every placement</li>
+          <li><span class="dot icon-yellow">📍</span> Opportunities across Nairobi, Kisumu, Machakos, and Garissa</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <form class="form-card" id="volunteer-form">
+          <div class="form-row">
+            <div class="field">
+              <label for="v-name">Name</label>
+              <input type="text" id="v-name" name="name" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="v-email">Email</label>
+              <input type="email" id="v-email" name="email" required autocomplete="email">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="v-phone">Phone</label>
+              <input type="tel" id="v-phone" name="phone" autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="v-interest">Area of Interest</label>
+              <select id="v-interest" name="interest" required>
+                <option value="">Select an area</option>
+                <option>Artificial Intelligence</option>
+                <option>Climate Change</option>
+                <option>Youth Empowerment</option>
+                <option>General / Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="v-message">Message</label>
+            <textarea id="v-message" name="message" placeholder="Tell us a bit about yourself and how you'd like to help"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Submit Volunteer Interest</button>
+          <p class="form-note">We typically respond within 3 working days.</p>
+          <p class="form-success" id="volunteer-success"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PARTNERS ============ -->
+  <section class="section-pad section-alt" id="partners">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Partner with us</span>
+        <h2>Organizations building this with us.</h2>
+        <p>We welcome partnerships with organizations that share our commitment to community-led innovation and climate resilience.</p>
+      </div>
+      <div class="partner-grid reveal">
+        <div class="partner-tile">NGOs</div>
+        <div class="partner-tile">Schools</div>
+        <div class="partner-tile">Universities</div>
+        <div class="partner-tile">Government</div>
+        <div class="partner-tile">Businesses</div>
+        <div class="partner-tile">Development Partners</div>
+      </div>
+      <div class="center reveal" style="margin-top:36px;">
+        <a href="mailto:partnerships@hatuamkononi.org" class="btn btn-outline-dark">Start a Partnership Conversation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DONATE ============ -->
+  <section class="section-pad" id="donate">
+    <div class="container">
+      <div class="donate-card reveal">
+        <span class="eyebrow" style="color:var(--ink); opacity:0.7;">Donate</span>
+        <h2>Your gift plants trees, funds workshops, and opens doors.</h2>
+        <p style="color:var(--ink); opacity:0.85; max-width:520px; margin:0 auto;">100% secure giving. Choose an amount or enter your own — every contribution moves a community one step forward.</p>
+        <div class="donate-amounts">
+          <button class="amount-btn active" type="button">KES 500</button>
+          <button class="amount-btn" type="button">KES 1,500</button>
+          <button class="amount-btn" type="button">KES 5,000</button>
+          <button class="amount-btn" type="button">Custom</button>
+        </div>
+        <a href="#" class="btn" style="background:var(--ink); color:var(--white);">Donate Securely &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT + MAP ============ -->
+  <section class="section-pad section-alt" id="contact-info">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Contact us</span>
+        <h2>Come say hello.</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="reveal">
+          <div class="contact-item">
+            <div class="ci-icon icon-blue"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4z" stroke="var(--blue)" stroke-width="0" fill="none"/><path d="M3 6.5l9 6 9-6" stroke="var(--blue)" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="3" y="5" width="18" height="14" rx="2" stroke="var(--blue)" stroke-width="2" fill="none"/></svg></div>
+            <div><strong>Email</strong><p style="margin:2px 0 0;"><a href="mailto:info@hatuamkononi.org">info@hatuamkononi.org</a></p></div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon icon-green"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 5c0-1 1-2 2-2h2l2 5-2 1.5c1 2.5 3 4.5 5.5 5.5L15 13l5 2v2c0 1-1 2-2 2C10 19 4 13 4 5z" stroke="var(--green)" stroke-width="1.8" fill="none" stroke-linejoin="round"/></svg></div>
+            <div><strong>Phone</strong><p style="margin:2px 0 0;"><a href="tel:+254700000000">+254 700 000 000</a></p></div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon icon-yellow"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.4 7-12.5A7 7 0 105 9.5C5 14.6 12 22 12 22z" stroke="var(--yellow-deep)" stroke-width="1.8" fill="none"/><circle cx="12" cy="9.5" r="2.6" stroke="var(--yellow-deep)" stroke-width="1.8" fill="none"/></svg></div>
+            <div><strong>Office Address</strong><p style="margin:2px 0 0;">Kilimani Business Centre, 3rd Floor<br>Nairobi, Kenya</p></div>
+          </div>
+          <div class="socials" style="margin-top:20px;">
+            <a href="#" aria-label="Facebook" style="background:var(--mist);"><svg viewBox="0 0 24 24" fill="var(--ink)"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.25-1.5 1.55-1.5H16.7V3.7C16.4 3.66 15.4 3.6 14.2 3.6c-2.5 0-4.2 1.5-4.2 4.3v2h-2.8v3.1h2.8V21h3.5z"/></svg></a>
+            <a href="#" aria-label="Twitter / X" style="background:var(--mist);"><svg viewBox="0 0 24 24" fill="var(--ink)"><path d="M3 3l7.6 9.9L3.2 21h2.2l6.4-6.9 5 6.9H21l-8-10.4L20.4 3h-2.2l-6 6.4L7.5 3H3z"/></svg></a>
+            <a href="#" aria-label="Instagram" style="background:var(--mist);"><svg viewBox="0 0 24 24" fill="none" stroke="var(--ink)" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          </div>
+        </div>
+        <div class="reveal map-frame">
+          <iframe
+            title="Map showing Hatua Mkononi office location in Nairobi, Kenya"
+            src="https://www.google.com/maps?q=Kilimani%2C%20Nairobi%2C%20Kenya&output=embed"
+            width="100%" height="360" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <svg width="34" height="34" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="23" fill="var(--blue)"/><path d="M13 27c0-7 5-13 11-13s11 6 11 13c0 1.7-3 3-11 3s-11-1.3-11-3z" fill="var(--yellow)"/><path d="M24 10c3 4 3 9 0 13-3-4-3-9 0-13z" fill="var(--green)"/></svg>
+          Hatua Mkononi
+        </div>
+        <p style="max-width:280px;">Equipping communities with the knowledge, technology, and partnerships to build a sustainable, prosperous future.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="#fff"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V8c0-.9.25-1.5 1.55-1.5H16.7V3.7C16.4 3.66 15.4 3.6 14.2 3.6c-2.5 0-4.2 1.5-4.2 4.3v2h-2.8v3.1h2.8V21h3.5z"/></svg></a>
+          <a href="#" aria-label="Twitter / X"><svg viewBox="0 0 24 24" fill="#fff"><path d="M3 3l7.6 9.9L3.2 21h2.2l6.4-6.9 5 6.9H21l-8-10.4L20.4 3h-2.2l-6 6.4L7.5 3H3z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="#fff"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3.5 9.75h3v10.75h-3V9.75zM9.5 9.75h2.87v1.47h.04c.4-.75 1.38-1.55 2.84-1.55 3.04 0 3.6 2 3.6 4.6v6.23h-3v-5.52c0-1.32-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9v5.62h-3V9.75z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="contact.html">Get Involved</a></li>
+          <li><a href="contact.html#donate">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Safeguarding Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay Updated</h4>
+        <p style="color:rgba(255,255,255,0.7); margin-bottom:12px;">Monthly stories of impact, straight to your inbox.</p>
+        <form class="newsletter-form">
+          <div class="newsletter-inline">
+            <input type="email" placeholder="Your email address" required aria-label="Email address">
+            <button type="submit">Join</button>
+          </div>
+          <p class="newsletter-note" style="margin-top:10px; font-size:0.85rem;"></p>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Hatua Mkononi. All rights reserved.</span>
+      <span>Nairobi, Kenya</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
